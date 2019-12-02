@@ -180,9 +180,18 @@ header {
 [class*="col-"] {
   /* border: 1px solid black; */
 }
-.container-info h2{
+
+.container-info h2,
+.container-info h3{
   font-size: 30px;
   text-align: center;
+}
+
+.container-info ul li{
+  /* list-style: none; */
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
 }
 
 .phone{
@@ -191,11 +200,11 @@ header {
 
 .phone-box{
   height: 100%;
-  z-index: ;
   background-image: url(../img/iphone.png);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-
+  background-repeat: no-repeat;
+  margin-top: 20%;
 }
 
 
@@ -225,6 +234,10 @@ header {
   .container-fluid{
     width: 80%;
     margin: 0 auto;
+  }
+
+  .phone-box{
+    margin-top: 25%;
   }
 }
 
@@ -259,4 +272,11 @@ header {
   .col-xs-12{
     width: 100%;
   }
+  .promo_image{
+    padding: 20px 0;
+  }
+  .phone-box{
+    margin-top: 35%;
+  }
+
 }
